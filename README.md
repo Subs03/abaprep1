@@ -1,2 +1,2 @@
 # abaprep1
-Test Repository
+Open Source abapGit Code Challenge
