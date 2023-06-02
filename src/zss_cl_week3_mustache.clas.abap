@@ -23,6 +23,7 @@ CLASS zss_cl_week3_mustache DEFINITION
   PROTECTED SECTION.
   PRIVATE SECTION.
     METHODS get_book_list RETURNING VALUE(rt_book_list) TYPE tyt_books_list .
+
 ENDCLASS.
 
 

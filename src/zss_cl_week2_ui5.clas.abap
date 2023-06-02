@@ -24,6 +24,7 @@ CLASS zss_cl_week2_ui5 IMPLEMENTATION.
 
       WHEN 'BACK'.
         client->nav_app_leave( client->get_app( client->get( )-id_prev_app_stack  ) ).
+
     ENDCASE.
 
     client->set_next( VALUE #( xml_main = z2ui5_cl_xml_view=>factory(
